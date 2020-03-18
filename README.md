@@ -4,9 +4,6 @@
 
 
 <h2>Problem</h2>
-<p>Write a Java program to choose a random word from this list and print it out.</p>
-
-<h2>Notes</h2>
 <ul>
   <li>This is a java program to print out a random word from a given list of words in a text file.</li>
 </ul>
@@ -26,6 +23,11 @@
 <ul>
   <li>Step1: Run mvn clean install</li>
   <li>Step2: mvn exec:java -Dexec.mainClass="com.thr.code.challenge.Main"</li>
+</ul>
+<p>Executing program as a standalone Java application using an IDE</p>
+<ul>
+  <li>Step1: Select class "com.thr.code.challenge.Main" </li>
+  <li>Step2: Run as a java standlaone program"</li>
 </ul>
 
 <p>This Java Program uses the static file words_alpha.txt present in src/main/resources when executing</p>
